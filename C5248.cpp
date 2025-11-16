@@ -10,7 +10,7 @@ void dfs(int k){//k 层数
             a[k]=i;//存结果
             vis[i]=1;//已使用
             if(k==r){//到最后，走了™
-                for(int j=1;j<=r;j++) cout<<setw(3)<<a[j]<<" ";
+                for(int j=1;j<=r;j++) cout<<setw(3)<<a[j];
                 cout<<endl;
                 cnt++;
             }
